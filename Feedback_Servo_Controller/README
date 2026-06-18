@@ -1,0 +1,3 @@
+For this project, I programmed an STM32 Nucleo board with the UD CPEG222 shield to control a Parallax continuous rotation servo motor with feedback. The system uses a potentiometer as an analog input to adjust PWM pulse width and control motor speed, while the user button cycles the motor between clockwise, stop, counterclockwise, and stop.
+
+I implemented the project using bare-metal CMSIS and PlatformIO, using ADC input, PWM output, encoder feedback, SysTick timing, hardware timers, SSD display updates, and USART serial communication. The program calculates motor speed in RPM from the encoder signal over a 0.25-second window, displays the RPM on the four-digit seven-segment display, and sends the ADC value, direction, PWM width, and RPM data to the serial monitor.
