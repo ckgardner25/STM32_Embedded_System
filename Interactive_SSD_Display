@@ -1,0 +1,3 @@
+For this project, I programmed an STM32 Nucleo board to drive a dual seven-segment display PMOD that counts from 00 to 99, incrementing once per second and rolling over back to 00 after reaching 99. The counter could be started and stopped using the user button, while a double button press within one second reset the count back to zero.
+
+I developed the application using bare-metal CMSIS and PlatformIO, utilizing the SysTick timer for 1-second counting interrupts and TIM2 for high-speed display multiplexing updates. The project gave me experience with interrupt-driven programming, timer management, button debouncing, event detection, display control, and real-time embedded system design.
