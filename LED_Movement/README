@@ -1,0 +1,3 @@
+For this project, I programmed an STM32 Nucleo board to create a moving LED pattern on an LED PMOD, where the lit LED shifts across the display at regular intervals. The project was written using bare-metal CMSIS and PlatformIO, allowing me to work directly with the microcontroller's hardware registers rather than relying on high-level libraries.
+
+I configured GPIO pins through the Nucleo Morpho connector and implemented software-based delays to control the LED sequencing at approximately 0.5-second intervals. This project helped me gain experience with low-level embedded programming, GPIO configuration, hardware interfacing, and timing control in an STM32 environment.
