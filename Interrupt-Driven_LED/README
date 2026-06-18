@@ -1,0 +1,3 @@
+For this project, I programmed an STM32 Nucleo board to create a moving LED pattern on an LED PMOD using interrupt-driven control and hardware timing. The LEDs shift every 0.25 seconds, and pressing the user button pauses the sequence at its current position; pressing the button again resumes the pattern in the opposite direction.
+
+I developed the application using bare-metal CMSIS and PlatformIO, configuring GPIO peripherals through the Nucleo Morpho connector and using the SysTick timer to generate non-blocking delays. The project gave me experience with interrupt handling, hardware timers, state management, GPIO configuration, and event-driven embedded system design.
