@@ -1,0 +1,3 @@
+For this project, I programmed an STM32-controlled robot using the UD CPEG222 shield, two Parallax continuous rotation servo motors, and a PMOD LS1 infrared sensor array. The robot starts when the user button is pressed, follows a line using four IR sensor inputs, and stops when it detects the end line.
+
+I implemented the project using bare-metal CMSIS and PlatformIO, configuring GPIO inputs for the IR sensors, PWM outputs for motor control, and SSD outputs to display the live sensor pattern as four binary values. This project gave me experience with embedded robotics, sensor-based control, PWM motor driving, real-time decision logic, GPIO interfacing, and hardware integration using external battery power.
